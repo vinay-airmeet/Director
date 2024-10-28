@@ -25,6 +25,8 @@ jobs:
           cd backend
           python -m venv venv
           make install
+        shell: bash
+
 
       - name: Build HTML
         run: |
