@@ -22,8 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m venv backend/venv
-          make install-be
+          cd backend
+          python -m venv venv
+          make install
 
       - name: Build HTML
         run: |
