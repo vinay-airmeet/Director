@@ -30,4 +30,5 @@ jobs:
 
       - name: Build HTML
         run: |
+          source backend/venv/bin/activate
           mkdocs build
