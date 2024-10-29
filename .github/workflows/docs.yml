@@ -29,4 +29,4 @@ jobs:
       - name: Build and Publish HTML
         run: |
           source backend/venv/bin/activate
-          mkdocs gh-deploy
+          mkdocs gh-deploy --force
